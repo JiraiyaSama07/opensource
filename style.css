@@ -45,7 +45,7 @@ body {
 }
 
 .navbar .toggler {
-    font-size: 2rem;
+    font-size: 1.5rem; /* Reduced from 2rem */
     color: #c5c3c3;
     background-color: transparent;
     cursor: pointer;
@@ -57,17 +57,16 @@ body {
     cursor: pointer;
     background-color: transparent;
     border: none;
-    width: 90px;
-    height: 40px;
+    width: 67.5px; /* Reduced from 90px */
+    height: 30px; /* Reduced from 40px */
     color: #ccc;
-    font-size: 12px;
+    font-size: 9px; /* Reduced from 12px */
 }
 
 .navbar .nav-btn.selected {
-    border: 1px solid #ccc;
+    border: 0.75px solid #ccc; /* Reduced from 1px */
     border-radius: 8px;
 }
-
 
 .navbar .logo {
     background: linear-gradient(95deg, #7e22ce 3.2%, #3b82f6 99.5%);
@@ -75,13 +74,11 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 700;
-    font-size: 72px;
-  
+    font-size: 54px; /* Reduced from 72px */
 }
 
-
 .navbar .item {
-    font-size: 13px;
+    font-size: 9.75px; /* Reduced from 13px */
     color: #ccc;
     cursor: pointer;
 }
@@ -91,11 +88,11 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    border-bottom: 1px solid #7e22ce;
+    border-bottom: 0.75px solid #7e22ce; /* Reduced from 1px */
 }
 
 .navbar .item:not(:last-child) {
-    margin-right: 20px;
+    margin-right: 15px; /* Reduced from 20px */
 }
 
 .navbar .nav-buttons.active {
@@ -109,12 +106,9 @@ body {
     justify-content: space-between;
     margin-top: 10rem;
     width: 45em;
-    border: 2px solid #7e22ce; /* Border color to match background theme */
-    padding: 20px; /* Padding inside the border */
+    border: 1.5px solid #7e22ce; /* Reduced from 2px */
+    padding: 15px; /* Reduced from 20px */
 }
-
-/* To change the width of the border of the top container, adjust the 'border' property above.
-   For example, change '2px' to '4px' for a thicker border: border: 4px solid #7e22ce; */
 
 .top-container .info-box {
     max-width: 50%;
@@ -124,17 +118,17 @@ body {
 .top-container .header {
     margin: 0;
     color: #fff;
-    font-size: 2.4rem;
+    font-size: 1.8rem; /* Reduced from 2.4rem */
     font-weight: 600;
-    line-height: 55px;
+    line-height: 41.25px; /* Reduced from 55px */
 }
 
 .top-container .info-text {
-    margin: 20px 0 32px;
+    margin: 15px 0 24px; /* Reduced from 20px 0 32px */
     color: #fff;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.5px;
+    font-size: 12px; /* Reduced from 16px */
+    line-height: 15px; /* Reduced from 20px */
+    letter-spacing: 0.375px; /* Reduced from 0.5px */
 }
 
 .top-container .info-buttons {
@@ -143,18 +137,18 @@ body {
 
 .top-container .info-btn {
     cursor: pointer;
-    padding: 8px 38px;
+    padding: 6px 28.5px; /* Reduced from 8px 38px */
     border-radius: 16px;
     font-weight: 500;
-    font-size: 13px;
-    letter-spacing: -1px;
+    font-size: 9.75px; /* Reduced from 13px */
+    letter-spacing: -0.75px; /* Reduced from -1px */
     color: #fff;
 }
 
 .top-container .info-btn.nav-btn {
-    margin-left: 20px;
+    margin-left: 15px; /* Reduced from 20px */
     background-color: transparent;
-    border: 1px solid #fff;
+    border: 0.75px solid #fff; /* Reduced from 1px */
 }
 
 .top-container .info-btn.selected {
@@ -163,8 +157,8 @@ body {
 }
 
 .top-container .lol-box {
-    padding: 16px;
-    border: 1px solid #000;
+    padding: 12px; /* Reduced from 16px */
+    border: 0.75px solid #000; /* Reduced from 1px */
     background: linear-gradient(170deg, rgba(52, 93, 129, 0.08) 1.85%, rgba(57, 46, 75, 0.08) 98%);
     border-radius: 2rem;
     animation: toLeft 0.8s;
@@ -172,8 +166,8 @@ body {
 
 .top-container .lol-pic {
     object-fit: cover;
-    width: 300px;
-    height: 300px;
+    width: 225px; /* Reduced from 300px */
+    height: 225px; /* Reduced from 300px */
     border-radius: 1.6rem;
 }
 
@@ -181,7 +175,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 10px;
+    margin-top: 7.5px; /* Reduced from 10px */
 }
 
 .top-container .lol-box .info,
@@ -190,27 +184,27 @@ body {
     align-items: center;
     color: #fff;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 9px; /* Reduced from 12px */
 }
 
 .top-container .lol-box .info-img {
     object-fit: cover;
     flex-shrink: 0;
-    width: 30px;
-    height: 30px;
+    width: 22.5px; /* Reduced from 30px */
+    height: 22.5px; /* Reduced from 30px */
     border-radius: 50%;
-    margin-right: 10px;
+    margin-right: 7.5px; /* Reduced from 10px */
 }
 
 .top-container .lol-box .likes .icon-box {
     display: flex;
     align-items: center;
-    font-size: 15px;
+    font-size: 11.25px; /* Reduced from 15px */
 }
 
 .top-container .lol-box .likes .icon-box .bx {
-    font-size: 30px;
-    margin-right: 8px;
+    font-size: 22.5px; /* Reduced from 30px */
+    margin-right: 6px; /* Reduced from 8px */
 }
 
 .Workplace {
@@ -223,25 +217,25 @@ body {
     align-self: center;
     color: #fff;
     font-weight: 500;
-    font-size: 40px;
-    line-height: 72px;
+    font-size: 30px; /* Reduced from 40px */
+    line-height: 54px; /* Reduced from 72px */
 }
 
 .Workplace .info-text {
     align-self: center;
     color: #ccc;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 36px;
-    letter-spacing: 0.5px;
+    font-size: 15px; /* Reduced from 20px */
+    line-height: 27px; /* Reduced from 36px */
+    letter-spacing: 0.375px; /* Reduced from 0.5px */
 }
 
 .Workplace .items-box {
-    padding: 60px 80px;
+    padding: 45px 60px; /* Reduced from 60px 80px */
     position: relative;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
-    grid-gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(112.5px, 1fr)); /* Reduced from 150px */
+    grid-gap: 18.75px; /* Reduced from 25px */
     justify-content: space-around;
 }
 
@@ -249,17 +243,17 @@ body {
     content: "";
     position: absolute;
     width: 100%;
-    height: 120px;
-    top: 80px;
+    height: 90px; /* Reduced from 120px */
+    top: 60px; /* Reduced from 80px */
     background: linear-gradient(95deg, #7e22ce 3.2%, #3b82f6 99.5%);
-    filter: blur(140px);
+    filter: blur(105px); /* Reduced from 140px */
 }
 
 .Workplace .items-box .item-container p {
-    width: 100px;
-    margin-top: 12px;
+    width: 75px; /* Reduced from 100px */
+    margin-top: 9px; /* Reduced from 12px */
     text-align: center;
-    font-size: 12px;
+    font-size: 9px; /* Reduced from 12px */
     color: #fff;
 }
 
@@ -267,22 +261,22 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100px;
-    height: 100px;
-    border: 5px solid rgba(255, 255, 255, 0.3);
+    width: 75px; /* Reduced from 100px */
+    height: 75px; /* Reduced from 100px */
+    border: 3.75px solid rgba(255, 255, 255, 0.3); /* Reduced from 5px */
     border-radius: 2.6rem;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 22.5px rgba(0, 0, 0, 0.1); /* Reduced from 0 4px 30px */
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(90px);
 }
 
 .Workplace .items-box .item-container .item .bx {
-    font-size: 38px;
+    font-size: 28.5px; /* Reduced from 38px */
     color: #eee;
 }
 
 .footer {
-    margin: 50px 0;
+    margin: 37.5px 0; /* Reduced from 50px */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -290,8 +284,8 @@ body {
 }
 
 .copyright {
-    padding-bottom: 25px;
-    border-top: 1px solid #ccc;
+    padding-bottom: 18.75px; /* Reduced from 25px */
+    border-top: 0.75px solid #ccc; /* Reduced from 1px */
     text-align: center;
     width: 100%;
 }
@@ -299,10 +293,10 @@ body {
 .footer .footer-header {
     max-width: 50%;
     font-weight: 500;
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 22.5px; /* Reduced from 30px */
+    line-height: 30px; /* Reduced from 40px */
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 15px; /* Reduced from 20px */
     text-align: center;
 }
 
@@ -310,7 +304,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 40px;
+    gap: 30px; /* Reduced from 40px */
 }
 
 .footer .footer-links .link {
@@ -319,21 +313,21 @@ body {
 
 .footer .footer-links .link h5 {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 40px;
+    font-size: 15px; /* Reduced from 20px */
+    line-height: 30px; /* Reduced from 40px */
     color: #fff;
 }
 
 .footer .footer-links .link p {
-    font-size: 12px;
-    line-height: 18px;
-    letter-spacing: 0.05em;
+    font-size: 9px; /* Reduced from 12px */
+    line-height: 13.5px; /* Reduced from 18px */
+    letter-spacing: 0.0375em; /* Reduced from 0.05em */
     color: #ccc;
 }
 
 .copyright p {
-    font-size: 12px;
-    line-height: 36px;
+    font-size: 9px; /* Reduced from 12px */
+    line-height: 27px; /* Reduced from 36px */
     color: #afafaf;
 }
 
@@ -344,7 +338,7 @@ body {
 
     .top-container .info-box {
         max-width: none;
-        margin: 60px 0;
+        margin: 45px 0; /* Reduced from 60px 0 */
     }
 
     .top-container .lol-box {
@@ -353,7 +347,7 @@ body {
 
     .footer .footer-header {
         max-width: 80%;
-        margin-bottom: 30px;
+        margin-bottom: 22.5px; /* Reduced from 30px */
         text-align: center;
     }
 }
@@ -377,25 +371,25 @@ body {
     }
 
     .Workplace .items-box {
-        padding: 50px 0;
+        padding: 37.5px 0; /* Reduced from 50px 0 */
     }
 
     .Workplace .items-box:before {
-        height: 200px;
-        top: 90px;
-        filter: blur(120px);
+        height: 150px; /* Reduced from 200px */
+        top: 67.5px; /* Reduced from 90px */
+        filter: blur(90px); /* Reduced from 120px */
     }
 }
 
 @media screen and (max-width: 700px) {
     .top-container {
-        margin-top: 4rem !important;
+        margin-top: 3rem !important; /* Reduced from 4rem */
     }
 
     .top-container .info-box {
         max-height: none;
         max-width: none;
-        margin-bottom: 4rem;
+        margin-bottom: 3rem; /* Reduced from 4rem */
     }
 
     .top-container .lol-box {
@@ -407,14 +401,14 @@ body {
 
 @media screen and (max-width: 600px) {
     .main {
-        padding: 0 40px;
+        padding: 0 30px; /* Reduced from 40px */
     }
 
     .footer .footer-header {
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 15px; /* Reduced from 20px */
+        line-height: 22.5px; /* Reduced from 30px */
         max-width: 100%;
-        margin-bottom: 30px;
+        margin-bottom: 22.5px; /* Reduced from 30px */
         text-align: center;
     }
 
@@ -424,23 +418,23 @@ body {
     }
 
     .footer .footer-links .link {
-        margin-left: 20px;
+        margin-left: 15px; /* Reduced from 20px */
     }
 
     .footer .footer-links .link h5 {
-        font-size: 15px;
-        line-height: 35px;
+        font-size: 11.25px; /* Reduced from 15px */
+        line-height: 26.25px; /* Reduced from 35px */
     }
 
     .footer .footer-links .link p {
-        font-size: 11px;
-        line-height: 18px;
+        font-size: 8.25px; /* Reduced from 11px */
+        line-height: 13.5px; /* Reduced from 18px */
     }
 }
 
 @keyframes toRight {
     from {
-        transform: translateX(-700px);
+        transform: translateX(-525px); /* Reduced from -700px */
     }
 
     to {
@@ -450,7 +444,7 @@ body {
 
 @keyframes toLeft {
     from {
-        transform: translateX(550px);
+        transform: translateX(412.5px); /* Reduced from 550px */
     }
 
     to {
@@ -461,32 +455,32 @@ body {
 /* Enhanced About Us Section */
 #about {
     background-color: #1c1f2e;
-    padding: 80px 0;
+    padding: 60px 0; /* Reduced from 80px 0 */
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5rem;
+    gap: 3.75rem; /* Reduced from 5rem */
     position: relative;
 }
 
 #about img {
-    width: 30vw;
+    width: 22.5vw; /* Reduced from 30vw */
     border-radius: 1em;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 7.5px 22.5px rgba(0, 0, 0, 0.5); /* Reduced from 0 10px 30px */
     animation: floatImage 6s ease-in-out infinite;
 }
 
 .about-box {
-    max-width: 500px;
+    max-width: 375px; /* Reduced from 500px */
     display: flex;
     flex-direction: column;
     text-align: left;
-    gap: 2rem;
+    gap: 1.5rem; /* Reduced from 2rem */
 }
 
 .about-box h1 {
-    font-size: 4rem;
+    font-size: 3rem; /* Reduced from 4rem */
     color: #fff;
     background: linear-gradient(95deg, #7e22ce 3.2%, #3b82f6 99.5%);
     background-clip: text;
@@ -498,21 +492,21 @@ body {
 .about-box p {
     color: #ccc;
     opacity: 0.9;
-    font-size: 1.1rem;
-    line-height: 1.8rem;
+    font-size: 0.825rem; /* Reduced from 1.1rem */
+    line-height: 1.35rem; /* Reduced from 1.8rem */
     animation: fadeIn 2s;
 }
 
 .about-box .btn {
-    padding: 12px 36px;
+    padding: 9px 27px; /* Reduced from 12px 36px */
     background-color: #7e22ce;
     color: #fff;
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 0.75rem; /* Reduced from 1rem */
     transition: all 0.3s ease;
-    margin-top: 2rem;
+    margin-top: 1.5rem; /* Reduced from 2rem */
     animation: fadeInUp 2.5s;
 }
 
@@ -526,7 +520,7 @@ body {
         transform: translateY(0px);
     }
     50% {
-        transform: translateY(-15px);
+        transform: translateY(-11.25px); /* Reduced from -15px */
     }
     100% {
         transform: translateY(0px);
@@ -545,7 +539,7 @@ body {
 @keyframes fadeInUp {
     from {
         opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(15px); /* Reduced from 20px */
     }
     to {
         opacity: 1;
@@ -554,78 +548,77 @@ body {
 }
 
 /* Contact Section */
-/* Contact Section */
 .contact-section {
-            width: 80%;
-            max-width: 900px;
-            margin: auto;
-            background: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-        .contact-section h1 {
-            text-align: center;
-            font-size: 2.5rem;
-            color: #000;
-        }
+.contact-section h1 {
+    text-align: center;
+    font-size: 1.875rem; /* Reduced from 2.5rem */
+    color: #000;
+}
 
-        .contact-section h1 span {
-            color: #00ff00;
-        }
+.contact-section h1 span {
+    color: #00ff00;
+}
 
-        .contact-form {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: space-between;
-        }
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
 
-        .contact-form input, .contact-form textarea {
-            width: 100%;
-            border: 2px solid #00ff00;
-            border-radius: 5px;
-            padding: 10px;
-            font-size: 1rem;
-            outline: none;
-            transition: 0.3s;
-        }
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 0.75rem; /* Reduced from 1rem */
+    outline: none;
+    transition: 0.3s;
+}
 
-        .contact-form input:focus, .contact-form textarea:focus {
-            box-shadow: 0 0 8px #00ff00;
-        }
+.contact-form input:focus, .contact-form textarea:focus {
+    box-shadow: 0 0 8px #00ff00;
+}
 
-        .contact-form .half-width {
-            flex: 1;
-            min-width: calc(50% - 20px);
-        }
+.contact-form .half-width {
+    flex: 1;
+    min-width: calc(50% - 20px);
+}
 
-        .contact-form textarea {
-            min-height: 150px;
-            resize: none;
-        }
+.contact-form textarea {
+    min-height: 150px;
+    resize: none;
+}
 
-        .contact-form button {
-            background: #000;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            font-size: 1rem;
-            cursor: pointer;
-            transition: 0.3s;
-            box-shadow: 0 4px 8px rgba(0, 255, 0, 0.5);
-        }
+.contact-form button {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 0.75rem; /* Reduced from 1rem */
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 255, 0, 0.5);
+}
 
-        .contact-form button:hover {
-            background: #00ff00;
-            color: #000;
-        }
+.contact-form button:hover {
+    background: #00ff00;
+    color: #000;
+}
 
-        .contact-form button:active {
-            transform: scale(0.98);
-        }
+.contact-form button:active {
+    transform: scale(0.98);
+}
 
 .input-group {
     display: flex;
@@ -637,8 +630,8 @@ body {
 .input-box input,
 .input-group-2 textarea {
     width: 100%;
-    padding: 1.2rem;
-    font-size: 1rem;
+    padding: 0.9rem; /* Reduced from 1.2rem */
+    font-size: 0.75rem; /* Reduced from 1rem */
     color: #fff;
     background-color: #2d2f4a;
     border: 2px solid #7e22ce;
@@ -658,13 +651,13 @@ body {
 }
 
 .btn {
-    padding: 1rem 4rem;
+    padding: 0.75rem 3rem; /* Reduced from 1rem 4rem */
     background-color: #7e22ce;
     color: #fff;
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    font-size: 1.1rem;
+    font-size: 0.825rem; /* Reduced from 1.1rem */
     transition: all 0.3s ease;
     margin-top: 1.5rem;
 }
@@ -693,7 +686,7 @@ body {
 .about .right h3,
 .portfolio .header h3,
 .feedback h3 {
-    font-size: 40px;
+    font-size: 30px; /* Reduced from 40px */
     margin-top: 20px;
 }
 
@@ -730,27 +723,23 @@ body {
 }
 
 .skills .skill-items .item .icon i {
-    font-size: 26px;
+    font-size: 19.5px; /* Reduced from 26px */
     color: #006b6a;
 }
 
 .skills .skill-items .item h4,
 .portfolio .portfo-items .item .info h4 {
-    font-size: 18px;
+    font-size: 13.5px; /* Reduced from 18px */
 }
 
 .skills .skill-items .item p {
     margin-top: 20px;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 10.5px; /* Reduced from 14px */
+    line-height: 16.5px; /* Reduced from 22px */
     color: #1c1e53;
 }
-    
 
-
-/* 2nd  */
-
-
+/* 2nd */
 
 .pp-container {
     display: flex;
@@ -763,10 +752,6 @@ body {
     padding: 20px; /* Padding inside the border */
 }
 
-/* To change the width of the border of the top container, adjust the 'border' property above.
-   For example, change '2px' to '4px' for a thicker border: border: 4px solid #7e22ce; */
-
-
 .pp-container .info-box {
     max-width: 50%;
     animation: toRight 0.8s;
@@ -775,16 +760,16 @@ body {
 .pp-container .header {
     margin: 0;
     color: #fff;
-    font-size: 2.4rem;
+    font-size: 1.8rem; /* Reduced from 2.4rem */
     font-weight: 600;
-    line-height: 55px;
+    line-height: 41.25px; /* Reduced from 55px */
 }
 
 .pp-container .info-text {
     margin: 20px 0 32px;
     color: #fff;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 12px; /* Reduced from 16px */
+    line-height: 15px; /* Reduced from 20px */
     letter-spacing: 0.5px;
 }
 
@@ -794,10 +779,10 @@ body {
 
 .pp-container .info-btn {
     cursor: pointer;
-    padding: 8px 38px;
+    padding: 6px 28.5px; /* Reduced from 8px 38px */
     border-radius: 16px;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 9.75px; /* Reduced from 13px */
     letter-spacing: -1px;
     color: #fff;
 }
@@ -823,8 +808,8 @@ body {
 
 .pp-container .lol-pic {
     object-fit: cover;
-    width: 300px;
-    height: 300px;
+    width: 225px; /* Reduced from 300px */
+    height: 225px; /* Reduced from 300px */
     border-radius: 1.6rem;
 }
 
@@ -841,14 +826,14 @@ body {
     align-items: center;
     color: #fff;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 9px; /* Reduced from 12px */
 }
 
 .pp-container .lol-box .info-img {
     object-fit: cover;
     flex-shrink: 0;
-    width: 30px;
-    height: 30px;
+    width: 22.5px; /* Reduced from 30px */
+    height: 22.5px; /* Reduced from 30px */
     border-radius: 50%;
     margin-right: 10px;
 }
@@ -856,14 +841,13 @@ body {
 .pp-container .lol-box .likes .icon-box {
     display: flex;
     align-items: center;
-    font-size: 15px;
+    font-size: 11.25px; /* Reduced from 15px */
 }
 
 .pp-container .lol-box .likes .icon-box .bx {
-    font-size: 30px;
+    font-size: 22.5px; /* Reduced from 30px */
     margin-right: 8px;
 }
-
 
 @media screen and (max-width: 1040px) {
     .pp-container {
@@ -886,7 +870,6 @@ body {
     }
 }
 
-
 @media screen and (max-width: 700px) {
     .pp {
         margin-top: 4rem !important;
@@ -904,16 +887,3 @@ body {
         max-height: none;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
